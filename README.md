@@ -33,4 +33,4 @@ In **IFT**, the system consists of one transmitter and two receivers that operat
 - **4096-byte UART buffer** limitation: IFT ensures data is transferred at a rate that prevents buffer overflow by using **Ready to Receive (RTR) logic**, which synchronizes the data flow between the master and slave.
 
 ## Contact
-For any questions or further information, please contact: **[de.soumadeep@gmail.com]**
+For any questions or further information, please contact: **de.soumadeep@gmail.com**
