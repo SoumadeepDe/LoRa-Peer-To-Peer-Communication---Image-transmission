@@ -51,7 +51,10 @@ T_packet = T_preamble + T_payload = 12.544 + 366.59 = 379.13 ms
 
 ## Spectrum Verification
 
-The calculated ToA has been experimentally verified using spectrum analysis with a Software Defined Radio (SDR). A demonstration video is available in the [GitHub repository](https://github.com/SoumadeepDe/LoRa-Peer-To-Peer-Communication---Image-transmission). Each packet occupies the spectrum for less than 400 ms, complying with the FCC 400 ms transmission time (dwell time) limit in the 915 MHz band.
+The calculated ToA has been experimentally verified using spectrum analysis with a Software Defined Radio (SDR). A demonstration GIF file is shown below:
+![SDR Demo GIF](sdr_demo.gif)
+
+The screen capture is done at 0.1x speed, with a total time of ~9.6 seconds. Each packet occupies the spectrum for less than 400 ms, complying with the FCC 400 ms transmission time (dwell time) limit in the 915 MHz band.
 
 ## Duty Cycle Strategy
 
